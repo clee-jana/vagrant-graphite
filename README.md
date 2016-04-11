@@ -10,8 +10,7 @@
 * Start your vagrant image and SSH in with `vagrant ssh`
 * Run this last command: `sudo graphite-manage syncdb`. You can use the
   default values and pick a generic password.
-* Test the install by visiting the [Graphite Web
-  Console](http://localhost:5080)
+* Test the install by visiting the Graphite Web Console at [http://localhost:5080](http://localhost:5080)
 * Fire some test data to graphite (10 second intervals between).
   Example: `echo "test.count 3 `date +%s`" | nc -c 127.0.0.1 5003` on OS
   X or `nc -q` on linux.
