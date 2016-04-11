@@ -41,6 +41,7 @@ $> vagrant halt
 
 # delete the instance to start over. please note you will lose the contents of the vagrant box. synced folders are safe because they are on the host vm.
 $> vagrant destroy
+```
 
 ## Known Issues
 
