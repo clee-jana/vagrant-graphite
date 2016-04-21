@@ -46,3 +46,4 @@ $> vagrant destroy
 
 * Not sure how to auto run the syncdb command unattended. I've tried
   various forms of `-noinput` without any luck.
+* Need to change ENABLE_UDP_LISTENER to True in /etc/carbon/carbon.conf
